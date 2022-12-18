@@ -1,0 +1,63 @@
+body{
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.small-bg{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: gray;
+  width: 80%;
+  position: absolute;
+  top: calc(100% - 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: .6;
+}
+
+.city-cont{
+  padding: 0 15px;
+  position: relative;
+}
+.content{
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.city-title{
+  position: relative;
+  width: fit-content;
+  font-size: 20px;
+}
+
+.country{
+  position: absolute;
+  left: calc(100% + 5px);
+  top: 2px;
+  font-size: 12px;
+}
+
+.temperature{
+  position: relative;
+  width: fit-content;
+}
+
+.temp{
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.celesius{
+  position: absolute;
+  top: 5px;
+  left: 100%;
+  font-size: 20px;
+}
+
+.map{
+  width: 200px;
+  height: 200px;
+}

@@ -37,7 +37,7 @@ function searchForCity(){
         <span class="celesius">&#8451;</span>
       </div>
       <img class="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${cityInfo.weather[0].icon}.svg" alt="">
-      <p class="weather-description mt-3 mb-0 text-secondary">CLEAR SKY</p>
+      <p class="weather-description mt-3 mb-0 text-secondary">${cityInfo.weather[0].description}</p>
         </div>
         <div class="map"></div>
       </div>

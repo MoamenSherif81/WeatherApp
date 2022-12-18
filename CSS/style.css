@@ -25,6 +25,7 @@ body{
   background-color: white;
   padding: 30px;
   border-radius: 15px;
+  height: 100%;
 }
 
 .city-title{
@@ -60,4 +61,8 @@ body{
 .map{
   width: 200px;
   height: 200px;
+}
+
+.weather-description{
+  word-wrap: normal;
 }
